@@ -2,94 +2,48 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="test2.css" />
 </head>
 
 <body>
 
-<div class="panel-group" id="accordion1">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">Collapsible Group Item #1
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in">
-                    <div class="panel-body">Panel 1</div>
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">Collapsible Group Item #2
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <div class="panel-body">
-                            <h2>Heading</h2>
-                            <div class="panel-group" id="accordion21">
-                                <div class="panel">
-                                    <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwoOne">View details 2.1 &raquo;
-                                    </a>
-                                    <div id="collapseTwoOne" class="panel-collapse collapse">
-                                        <div class="panel-body">Details 1</div>
-                                    </div>
-                                </div>
-                                <div class="panel ">
-                                    <a data-toggle="collapse" data-parent="#accordion21" href="#collapseTwoTwo">View details 2.2 &raquo;
-                                    </a>
-                                    <div id="collapseTwoTwo" class="panel-collapse collapse">
-                                        <div class="panel-body">Details 2</div>
-                                    </div>
-                                </div>
-                            </div>
+    <ul id="cbp-ntaccordion" class="cbp-ntaccordion">
+        <li>
+            <h3 class="cbp-nttrigger">Oat cake tootsie roll</h3>
+            <div class="cbp-ntcontent">
+                <p><!-- ... --></p>
+                <ul class="cbp-ntsubaccordion">
+                    <li>
+                        <h4 class="cbp-nttrigger">Donut pastry</h4>
+                        <div class="cbp-ntcontent"><!-- ... --></div>
+                    </li>
+                    <li>
+                        <h4 class="cbp-nttrigger">Carrot cake</h4>
+                        <div class="cbp-ntcontent">
+                            <!-- ... -->
+                            <ul class="cbp-ntsubaccordion">
+                                <li>
+                                    <h5 class="cbp-nttrigger">Donut pastry</h5>
+                                    <div class="cbp-ntcontent"><!-- ... --></div>
+                                </li>
+                                <li><!-- ... --></li>
+                                <li><!-- ... --></li>
+                            </ul>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">Collapsible Group Item #3
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse">
-                    <div class="panel-body">
-
-                        <div class="panel-group" id="accordion2">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeOne">Collapsible Group Item #3.1
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThreeOne" class="panel-collapse collapse in">
-                                    <div class="panel-body">Panel 3.1</div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThreeTwo">Collapsible Group Item #3.2
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThreeTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">Panel 3.2</div>
-                                </div>
-                            </div>
+                    </li>
+                    <li>
+                        <h4 class="cbp-nttrigger">Tootsie roll marshmallow</h4>
+                        <div class="cbp-ntcontent">
+                            <!-- ... -->
                         </div>
-
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-
-        </div>
+        </li>
+        <li><!-- ... --></li>
+        <li><!-- ... --></li>
+        <li><!-- ... --></li>
+    </ul>
+    <script src="test2.js"></script>
 </body>
 </html>        
